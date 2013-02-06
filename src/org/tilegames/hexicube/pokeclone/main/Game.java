@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Random;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
@@ -16,6 +17,8 @@ import com.badlogic.gdx.InputProcessor;
 
 public class Game implements ApplicationListener, InputProcessor
 {
+	public static Random rand;
+	
 	@Override
 	public void create()
 	{
@@ -119,7 +122,7 @@ public class Game implements ApplicationListener, InputProcessor
 		File f = new File(folder+File.separator+name);
 		if(!f.exists())
 		{
-			System.out.println(name+" doesn't exist, creating...");
+			System.out.println(folder+File.separator+name+" doesn't exist, creating...");
 			try {
 				f.createNewFile();
 			} catch (IOException e) {
