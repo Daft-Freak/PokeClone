@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<pokemon name = "Bulbasaur" expGain = "64" capstureRate = "45" primaryType = "grass" secondaryType = "none"
+<pokemon name = "Bulbasaur" expGain = "64" capstureRate = "45" primaryType = "grass" secondaryType = "poison"
 	evolveLevel="16" evolveSpecies="2"
 	health = "45" attack = "49" defence = "49" specialAttack = "65" specialDefence = "65" speed = "45"
 	healthEVGain = "0" attackEVGain = "0" defenceEVGain = "0" specialAttackEVGain = "1" specialDefenceEVGain="0" speedEVGain="0">
